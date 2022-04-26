@@ -12,4 +12,4 @@ To test the code, run:
 
 `yarn test`
 
-In getPrice.test.js there's a empty test template which you can use to add your own.
+- In getPrice.test.js there's a empty test template which you can use to add your own.
