@@ -1,0 +1,102 @@
+
+
+*{
+  box-sizing: border-box;
+  color: #1a202c;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+.main-container{
+  width: 100vw;
+  height: 150vh;
+  background-image: url('../images/kitt-bg.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .section{
+    width: 1280px;
+
+  .logo-container{
+    padding: 24px;
+    height: 128px;
+    img{
+      height: 80px;
+    }
+  }
+}
+
+  .calculator-container{
+    width: inherit;
+    padding: 24px;
+    h2{
+      font-size: 60px;
+      line-height: 75px;
+      width: 375px;
+    }
+    .calculator-input-container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 18px;
+      .office-card{
+        background-color: white;
+        background-image: url('../images/office-bg.svg');
+        border-radius: 8px;
+        padding: 24px;
+        margin-top: -100px;
+        -webkit-box-shadow: 28px 28px 28px -38px rgba(0,0,0,0.62);
+        -moz-box-shadow: 28px 28px 28px -38px rgba(0,0,0,0.62);
+        box-shadow: 28px 28px 28px -38px rgba(0,0,0,0.62);
+        img{
+          height: 70%;
+        }
+        h2{
+          font-size: 30px;
+          width: 100%;
+        }
+      }
+      .button-container{
+        display: flex;
+        flex-direction: row;
+        padding: 24px;
+        gap: 20px;
+        div{
+          display: flex;
+          flex-direction: row;
+          gap: 10px;
+          text-align: center;
+        }
+      }
+    }
+
+  }
+}
+
+.default-button{
+  border: none;
+  border-radius: 8px;
+  padding: 4px 24px;
+  font-size: 16px;
+  background-color: #a0aec0;
+}
+.default-button:hover{
+  background-color: #93a0b0;
+}
+.default-button:disabled{
+  background-color: #d7dde5;
+}
+
+.calculate-button{
+  font-size: 18px;
+  background-color: #f37a90;
+  color: white;
+}
+
+.price{
+  font-size: 30px;
+}
